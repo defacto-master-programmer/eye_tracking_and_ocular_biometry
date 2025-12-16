@@ -1,1 +1,1 @@
-Branch per il riconoscimento dell'iride con immagini e confronto iride
+Questo repository contiene vari file di codice divisi in branch separati per funzionalità specifiche.
