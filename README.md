@@ -1,15 +1,15 @@
-Eye Tracker con MediaPipe**
+Eye Tracker con MediaPipe
 
 Questo progetto implementa un sistema di tracciamento dello sguardo in tempo reale utilizzando Python, OpenCV e MediaPipe Face Mesh. Il software rileva la posizione delle iridi per determinare la direzione dello sguardo (Centro, Sinistra, Destra, Alto, Basso) e genera grafici statistici al termine della sessione.
 
-*Funzionalità
+Funzionalità
 
-* **Rilevamento Facciale:** Utilizza MediaPipe per tracciare i landmark del volto e dell'iride.  
-* **Calibrazione Automatica:** I primi 60 frame vengono utilizzati per calibrare il "centro" soggettivo dell'utente.  
-* **Analisi in Tempo Reale:** Feedback visivo a schermo con direzione dello sguardo e coordinate.  
-* **Reportistica Grafica:** Generazione automatica di grafici (andamento temporale e dispersione) alla chiusura del programma.
+* Rilevamento Facciale: Utilizza MediaPipe per tracciare i landmark del volto e dell'iride.  
+* Calibrazione Automatica: I primi 60 frame vengono utilizzati per calibrare il "centro" soggettivo dell'utente.  
+* Analisi in Tempo Reale: Feedback visivo a schermo con direzione dello sguardo e coordinate.  
+* Reportistica Grafica: Generazione automatica di grafici (andamento temporale e dispersione) alla chiusura del programma.
 
-#Prerequisiti e Installazione
+Prerequisiti e Installazione
 
 Le librerie richieste sono elencate di seguito. Puoi installarle eseguendo questo comando nel terminale:
 
@@ -50,7 +50,7 @@ Puoi modificare queste variabili nel metodo \_\_init\_\_:
 | self.UP\_THRESH | **0.38** | Valori inferiori a questo indicano "Alto". |
 | self.DOWN\_THRESH | **0.62** | Valori superiori a questo indicano "Basso". |
 
-* *Consiglio:* Se il sistema è troppo sensibile (rileva movimenti anche stando fermi), allarga il range (es. abbassa LEFT a 0.40 e alza RIGHT a 0.60).
+* Consiglio: Se il sistema è troppo sensibile (rileva movimenti anche stando fermi), allarga il range (es. abbassa LEFT a 0.40 e alza RIGHT a 0.60).
 
 2\. Path e Nomi Immagini di Output**
 
