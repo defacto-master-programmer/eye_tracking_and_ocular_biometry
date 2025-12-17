@@ -1,1 +1,1 @@
-Spiegazione del file confrontoiride.py e delle immagini iris1,iris2 e iris2copia
+Questo branch contiene il codice di riconoscimento e confronto iride, insieme alle immagini necessarie.
